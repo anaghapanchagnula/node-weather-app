@@ -24,7 +24,7 @@ app.use(express.static(publicDirectoryPath));
 //HOME PAGE
 app.get('', (req, res) => {
   res.render('index', {
-    title: 'Weather Forecast',
+    title: 'Current Weather Forecast',
     name: 'Anagha Panchagnula',
   });
 });
